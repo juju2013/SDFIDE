@@ -191,7 +191,7 @@ class IDE():
     
 ide = IDE()
 
-def showsdf(obj):
+def showsdf(obj, **args):
   """show a SDF object"""
-  ide.show(obj.generate(verbose=False))
+  ide.show(obj.generate(verbose=False, **args))
     
